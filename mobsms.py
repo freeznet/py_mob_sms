@@ -24,5 +24,5 @@ class MobSMS:
 
 
 if __name__ == '__main__':
-    mobsms = MobSMS('you_key_gose_here')
+    mobsms = MobSMS('your_mob_sms_key_goes_here')
     print mobsms.verify_sms_code(86, 13900000000, '1234')
