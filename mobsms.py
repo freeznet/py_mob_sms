@@ -8,7 +8,7 @@ __author__ = 'rui'
 class MobSMS:
     def __init__(self, appkey):
         self.appkey = appkey
-        self.verify_url = 'https://api.sms.mob.com:8443/sms/verify'
+        self.verify_url = 'https://api.sms.mob.com/sms/verify'
 
     def verify_sms_code(self, zone, phone, code, debug=False):
         if debug:
